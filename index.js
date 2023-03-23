@@ -142,7 +142,8 @@ class MessageWidget {
   }
 }
 
- function initializeWidget() {
+function initializeWidget() {
+  console.log("initalize");
   return new MessageWidget();
 }
 
