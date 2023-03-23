@@ -141,3 +141,9 @@ class MessageWidget {
     }
   }
 }
+
+ function initializeWidget() {
+  return new MessageWidget();
+}
+
+initializeWidget();
