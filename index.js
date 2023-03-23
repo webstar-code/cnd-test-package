@@ -1,7 +1,8 @@
 import { CLOSE_ICON, MESSAGE_ICON, styles } from "./assets.js";
 
 class MessageWidget {
-  constructor(position = "bottom-right") { ... }
+  constructor(position = "bottom-right") { 
+  }
 
   position = "";
   open = false;
